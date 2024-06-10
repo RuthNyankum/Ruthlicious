@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruthlicious</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&family=Poppins:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <nav>
+        <img id="logo" src="./assets/logos/logo-no-background.png" alt="Logo">
+
+        <div id="nav-links">
+            <span>Home</span>
+            <span>Menu</span>
+            <span>Reservation</span>
+            <span>Gallery</span>
+            <span>About</span>
+            <span>Blog</span>
+            <span>Contact</span>
+        </div>
+    </nav>
+
+    <section id="hero">
+        <div id="hero-overlay">
+            <header>
+                <span id="subtext-one" class="courgette-regular">Welcome to</span>
+                <span id="subtext-two" class="poppins-bold">Ruthlicious Palace</span>
+            </header>
+            <button class="menu-button">Look Menu</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <div id="about-text">
+            <div class="sub-header">
+                <span class="courgette-regular">Canadian Restaurant</span>
+                <span class="poppins-bold">Welcome</span>
+            </div>
+            <p id="about-p">
+                Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est. Sed fringilla, nunc sed imperdiet
+                lacinia, nisl ante egestas mi, ac facilisis ligula sem id neque.
+            </p>
+            
+            <div id="about-links">
+                <span>Our story</span>
+                <span>Icon here</span>
+            </div>
+        </div>
+        <img id="about-image" src="./assets/images/about2.jpg" alt="about image" />
+    </section>
+
+    <section id="discover">
+        <div class="discover-content">
+            <span class="courgette-regular">Discover</span>
+            <span class="poppins-bold">Ruthlicious</span>
+        </div>
+        <div class="flex-container">
+            <div><img src="./assets/images/discover_bg.jpg" alt="">romantic restaurant</div>
+            <div><img src="./assets/images/555.jpg" alt="delicious food"></div>
+            <div><img src="./assets/images/about2.jpg" alt="red wine"></div>
+        </div>
+
+    </section>
+    
+    <section id="menu">
+         <div class="sub-header">   <!--copied this from the about -->
+            <span class="courgette-regular">Discover</span>
+            <span class="poppins-bold">Menu</span>
+        </div>
+        <div class="grid-container">
+            <div class="group1">
+                <img src="./assets/images/111.jpg" alt="lunch">
+            </div>
+            <div class="group1">
+                <img src="./assets/images/222.jpg" alt="dinner">
+            </div>
+            <div class="group3">
+                <img src="./assets/images/333.jpg" alt="drinks">
+            </div>
+            <div class="group3">
+                <img src="./assets/images/444.jpg" alt="starter">
+            </div>
+            <div class="group2">
+                <img src="./assets/images/555.jpg" alt="happy-hour">
+            </div>
+            <div class="group3">
+                <img src="./assets/images/666.jpg" alt="dessert">
+            </div>
+        </div>
+    </section>
+
+     <section id="video-sec">    <!-- --copied from discover -->
+        <video id="video" autoplay loop>
+            <source src="./assets/videos/3196176-uhd_3840_2160_25fps.mp4" type="video/mp4">
+        </video>
+        <div id="video-overlay">
+            <div class="sub-header">
+                <span class="courgette-regular">Discover</span>
+                <span class="poppins-bold">OUR VIDEOS</span>
+            </div>
+        </div>
+     </section>
+
+    <section id="reservation">
+        <div id="section1">
+            <div id="sub-header">
+                <span class="courgette-regular">Reservation</span>
+                <span class="poppins-bold">BOOK TABLES</span>
+            </div>
+            <form>
+                <div id="input-grid">
+                    <span class="form-item">
+                        <label for="date">Date</label>
+                        <input id="date" type="date"/>
+                    </span>
+                    <span class="form-item">
+                        <label for="date">Name</label>
+                        <input id="name" type="name"/>
+                    </span>
+                    <span class="form-item">
+                        <label for="time">Time</label>
+                        <input id="time" type="time"/>
+                        <select name="time" id="">
+                            <option value="9:00">9:00</option>
+                            <option value="9:30">9:30</option>
+                            <option value="10:00">9:00</option>
+                            <option value="10:30">9:00</option>
+                            <option value="11:00">9:00</option>
+                            <option value="11:30">9:00</option>
+                            <option value="12:00">9:00</option>
+                        </select>
+                    </span>
+                    <span class="form-item">
+                        <label for="phone">Phone</label>
+                        <input id="phone" type="number"/>
+                    </span>
+                    <span class="form-item">
+                        <label for="people">People</label>
+                        <input id="people" type="people"/>
+                        <select name="People" id="">
+                            <option value="People">1 Person</option>
+                            <option value="People">2 People</option>
+                            <option value="People">3 People</option>
+                            <option value="People">4 People</option>
+                            <option value="People">5 People</option>
+                            <option value="People">6 People</option>
+                        </select>
+                    </span>
+                    <span class="form-item">
+                        <label for="email">Email</label>
+                        <input id="email" type="email"/>
+                    </span>
+                </div>
+                <div id="book-me">
+                    <button id="book-metoo">Book Table</button>
+                </div>
+            </form>
+        </div>
+        <img src="./assets/images/444.jpg" alt="Reservation image">
+    </section>
+
+    <section>Reviews goes here</section>
+    <section>Footer goes here</section>
+</body>
+
+</html>
