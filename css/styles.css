@@ -305,3 +305,38 @@ body {
   text-transform: uppercase;
   margin-top: 15px;
 }
+
+#footer {
+  height: 250px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#logo-footer {
+  height: 50px;
+  width: 150px;
+
+  /* display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding: 100px; */
+
+}
+
+#footer-text {
+  display: flex;
+  text-align: center;
+  color: white;
+  
+
+}
+
+#footer-icon {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  column-gap: 10px;
+}
